@@ -1,0 +1,12 @@
+# Principle of a While loop in python
+# write the Base case
+# write the while loop with the limit
+# do something..
+# decrement or increment accordingly
+
+num = 99
+while num > 0:
+    print("%s bottles of beer on the wall, %s bottles of beer.Take one down and pass it around, %s bottles of beer on the wall." % (num,num, num-1)) 
+    num = num - 1
+    if num == 0:
+        print ("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall.")
